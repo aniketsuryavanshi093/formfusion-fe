@@ -1,0 +1,23 @@
+.button {
+  background-color: rgb(210, 84, 118);
+  color: rgb(31, 8, 14);
+  padding-block-start: 8px;
+  padding-block-end: 8px;
+  padding-inline-start: 18px;
+  padding-inline-end: 18px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 12px 0px;
+  font-size: 22px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  min-height: 48px;
+  font-weight: 500;
+}
+
+.bgimage {
+  background-image: url("https://images.typeform.com/images/rKCCWvHrG9Z2/background/large");
+}
+
+.picture {
+  max-width: 20%;
+}
