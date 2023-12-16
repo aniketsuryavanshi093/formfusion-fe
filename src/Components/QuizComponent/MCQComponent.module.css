@@ -1,0 +1,46 @@
+.button-div {
+  display: flex;
+  align-items: center;
+  background-color: rgba(224, 251, 255, 0.1);
+  box-shadow: rgba(224, 251, 255, 0.6) 0px 0px 0px 1px inset;
+  color: rgb(224, 251, 255);
+  min-height: 40px;
+  padding-block: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 35px;
+}
+
+.clicked-div {
+  box-shadow: rgba(224, 251, 255, 0.8) 0px 0px 0px 2px inset;
+}
+
+.button-div:hover {
+  background-color: rgba(224, 251, 255, 0.3);
+}
+
+.option-text {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  min-width: 22px;
+  height: 24px;
+  border-radius: 2px;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgb(224, 251, 255);
+  background-color: rgba(44, 44, 44, 0.8);
+  border: 1px solid rgba(224, 251, 255, 0.6);
+}
+
+.svg {
+  display: block;
+  fill: rgb(224, 251, 255);
+  margin: 0 5px;
+}
